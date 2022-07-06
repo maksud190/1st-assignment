@@ -1,10 +1,13 @@
 body{
+    font-family: 'Acme', sans-serif;
+
+    font-family: 'Poppins', sans-serif;
    margin: 0;
 }
 .coverr{
     height: 100vh;
     width: 100%;
-    background-image:linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.9)), url(images/donation1.jpg);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.8)), url(images/donation2.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -12,11 +15,23 @@ body{
 .heading{
     text-align: center;
     color: aliceblue;
+    padding-top: 7%;
+    font-size: 50px;
 }
 .heading p{
     font-size: 18px;
+    padding-top: 0px;
 }
-.heading h1{
+/*.heading h1{
     padding-top: 15%;
     font-size: 70px;
+}*/
+.heading button{
+    text-align: center;
+    padding: 10px 20px 10px 20px;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(255, 52, 52);
+    border-radius: 3px;
+    border-width: 0;
 }
