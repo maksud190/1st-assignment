@@ -1,8 +1,6 @@
 body{
-    font-family: 'Acme', sans-serif;
-
-    font-family: 'Poppins', sans-serif;
-   margin: 0;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
 }
 .coverr{
     height: 100vh;
@@ -167,18 +165,22 @@ body{
 }
 #special-event{
     display: flex;
+    width: 100%;
     height: 100vh;
+}
+.special-event h1{
+    font-size: 30px;
 }
 .special-event-pic img{
     height: 65%;
     width: auto;
     border-radius: 7px;
-    margin-left: 100px;
-    margin-top: 115px;
+    margin-left: 150px;
+    margin-top: 130px;
 }
 .special-event{
-    text-align: left;
-    margin-top: 80px;
+    text-align: justify;
+    margin-top: 125px;
     margin-right: 150px;
     margin-left: 140px;
 }
@@ -190,4 +192,73 @@ body{
 }
 span{
     font-weight: bold;
+}
+/*#to-contribute{
+    text-decoration: none;
+    background-color: antiquewhite;
+}
+.to-contribute{
+    text-align: center;
+    margin-top: 88vh;
+    margin-left: 50px;
+}*/
+#to-contribute{
+    text-decoration: none;
+    background-color: antiquewhite;
+    margin-left: 210px;
+    padding: 4px 4px 4px 7px;
+}
+/*.update{
+    height: 100vh;
+    width: 100%;
+}*/
+.update p{
+    text-align: center;
+}
+.my-update h1{
+    font-size: 50px;
+    text-align: center;
+    padding-top: 35px;
+}
+.form{
+    background-color: rgba(252, 232, 182, 0.456);
+    margin-left: 350px;
+    margin-right: 350px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 130px;
+}
+.email{
+    font-weight: 400;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    background-color: rgb(224, 224, 224);
+    padding: 15px 100px 15px 20px;
+}
+.subscribe{
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.912);
+    margin: -5px;
+    border: 0;
+    border-radius: 0 5px 5px 0;
+    background-color: rgba(255, 69, 69, 0.907);
+    padding: 15px 40px 15px 40px;
+}
+footer{
+    background-color: rgba(0, 0, 0, 0.919);
+}
+.humble{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    text-align: center;
+    padding-top: 30px;
+    color: rgba(255, 55, 55, 0.885);
+    font-size: 30px;
+}
+.help{
+    text-align: center;
+    color: rgba(240, 248, 255, 0.727);
+    padding-bottom: 30px;
+    padding-top: 20px;
 }
